@@ -8,7 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "wifiStartButton"
+- "wifiStartButtonActions"
+- "wifiStartLabel"
 depends-top-level:
+- "UIButton"
+- "UILabel"
 - "UIViewController"
 - "ViewController"
 depends-member:
@@ -40,9 +45,14 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "wifiStartButton"]
+- ["So8NSObjectC", "wifiStartButtonActions"]
+- ["So8NSObjectC", "wifiStartLabel"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
@@ -63,9 +73,14 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "wifiStartButton"]
+- ["So11UIResponderC", "wifiStartButtonActions"]
+- ["So11UIResponderC", "wifiStartLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
@@ -78,14 +93,24 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "wifiStartButton"]
+- ["So16UIViewControllerC", "wifiStartButtonActions"]
+- ["So16UIViewControllerC", "wifiStartLabel"]
 - ["So16UIViewControllerC", ""]
+- ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "UIButton"]
+- ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "UILabel"]
 - ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "deinit"]
 - ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "didReceiveMemoryWarning"]
 - ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "init"]
 - ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "viewDidLoad"]
+- ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "wifiStartButton"]
+- ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "wifiStartButtonActions"]
+- ["36Wifi_Bluetooth4_0_Indoor_Positioning14ViewControllerC", "wifiStartLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
@@ -136,4 +161,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "2273e0b6560749631899e82af2412a52"
+interface-hash: "c462d64dc90f74358f4e7060a7cbc1c1"

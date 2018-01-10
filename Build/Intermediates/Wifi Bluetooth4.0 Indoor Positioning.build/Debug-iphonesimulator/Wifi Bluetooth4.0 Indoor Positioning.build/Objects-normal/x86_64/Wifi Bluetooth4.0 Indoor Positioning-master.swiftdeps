@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "4f34ba85b9a31e989d8704b0c16cd110"
-build_time: [1515537719, 941324000]
+build_time: [1515557330, 679113000]
 inputs:
-  "/Users/ceciliawu/Capstone Project/Wifi Bluetooth4.0 Indoor Positioning/Wifi Bluetooth4.0 Indoor Positioning/ViewController.swift": [1515537716, 0]
+  "/Users/ceciliawu/Capstone Project/Wifi Bluetooth4.0 Indoor Positioning/Wifi Bluetooth4.0 Indoor Positioning/ViewController.swift": [1515556122, 0]
   "/Users/ceciliawu/Capstone Project/Wifi Bluetooth4.0 Indoor Positioning/Wifi Bluetooth4.0 Indoor Positioning/AppDelegate.swift": [1515537716, 0]

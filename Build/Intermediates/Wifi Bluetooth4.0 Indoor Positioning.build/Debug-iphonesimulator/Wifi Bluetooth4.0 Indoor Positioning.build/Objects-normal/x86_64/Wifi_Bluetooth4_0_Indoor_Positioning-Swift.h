@@ -199,13 +199,18 @@ SWIFT_CLASS("_TtC36Wifi_Bluetooth4_0_Indoor_Positioning11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC36Wifi_Bluetooth4_0_Indoor_Positioning14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified wifiStartLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified wifiStartButton;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified wifiStartButtonActions;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
